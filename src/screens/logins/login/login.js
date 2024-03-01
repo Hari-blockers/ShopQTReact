@@ -20,6 +20,12 @@ function Login() {
         body: JSON.stringify({ username, password })
       });
       
+    //   {
+    //     "username": "john_doe",
+    //     "password": "secretpassword"
+    // }
+    
+
       const data = await response.json();
 
       if (data === true) {

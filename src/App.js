@@ -10,6 +10,7 @@ import Register from './screens/logins/register/Register';
 
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
